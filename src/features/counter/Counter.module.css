@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    width: fit-content; /* Chiều rộng theo nội dung */
+    height: fit-content; /* Chiều cao theo nội dung */
+    padding: 20px; /* Khoảng cách giữa nội dung và mép của thẻ */
+    border-radius: 10px; /* Bo góc thẻ */
+    box-shadow: 7px -5px 8px 10px rgba(0, 0, 0, 0.1) /* Đổ bóng mờ */
+}
+
+/* Thêm một ví dụ về kiểu của nội dung card */
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    color: #333;
+}
+.action{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.button {
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.value {
+    font-size: 20px;
+}
+.textbox {
+    width: 50px;
+    height: 20px;
+    border-radius: 15px;
+    border: solid 1 red;
+}
+.countvalue {
+    display: inline-flex;
+}
+
